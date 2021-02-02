@@ -78,13 +78,13 @@ strong {
      text-transform: uppercase;
      letter-spacing: 2px;
      font-weight: var(--fw-bold);
-     /* transition: transform 200ms ease-in-out */
+     transition: transform 200ms ease-in-out
 
 }
 
-/* .btn:hover{
+.btn:hover{
     transform: scale(1.1)
-} */
+}
 
 /* Typography */
 
