@@ -117,7 +117,8 @@ h3  {font-size: var(--fs-h3)}
 }
 
 .section-subtitle-intro,
-.section-subtitle-about {
+.section-subtitle-about,
+.section-subtitle-contact {
     background: var(--clr-accent);
     padding: 0.25em 1em;
     font-family: var(--ff-secondary);
@@ -325,7 +326,8 @@ header{
     }
 }
 
-.about {
+.about,
+.contact {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -345,11 +347,13 @@ header{
         grid-column-gap: 2em;
     }
 
-    .section-title-about{
+    .section-title-about,
+    .section-title-contact{
         grid-area: title;
     }
 
-    .section-subtitle-about{
+    .section-subtitle-about,
+    .section-subtitle-contact{
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
@@ -427,6 +431,25 @@ header{
     
   }
 
+
+/* contact */
+input[type=text], input[type=email], select, textarea{
+    width:100%;
+    padding:12px;
+    border: 1px solid var(--clr-accent);
+    box-sizing:border-box;
+    margin-top:6px;
+    margin-bottom:16px;
+    resize:vertical;
+}
+
+input[type=submit] {
+  
+    padding:12px 20px;
+    border:none;
+    cursor: pointer;
+   
+}
 
 /* footer */
 
